@@ -1,0 +1,9 @@
+---
+- name: Create a directory on localhost
+  hosts: localhost
+  tasks:
+    - name: Ensure the directory exists
+      file:
+        path: /mnt/c/Users/Munsif/Desktop/terraform/test-B
+        state: directory
+        mode: "0755"

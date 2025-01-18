@@ -1,0 +1,7 @@
+
+# using terraform we can create insfrastructure as code
+
+
+# using ansible  
+
+# using jenkins we can run 
